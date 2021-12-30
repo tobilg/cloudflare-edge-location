@@ -1,6 +1,6 @@
 const locations = require('../dist/cloudflare-edge-locations.json');
 
-class FastlyEdgeLocations {
+class CloudFlareEdgeLocations {
   constructor() {}
 
   getLocationCount () {
@@ -20,4 +20,4 @@ class FastlyEdgeLocations {
   }
 }
 
-module.exports = FastlyEdgeLocations;
+module.exports = CloudFlareEdgeLocations;
