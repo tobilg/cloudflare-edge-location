@@ -447,6 +447,20 @@
     "latitude": -26.983055,
     "longitude": -48.816387
   },
+  "INV5": {
+    "city": "Joinville",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "latitude": -26.305918,
+    "longitude": -48.934853
+  },
+  "JDO": {
+    "city": "Juazeiro do Norte",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "latitude": -7.21895980835,
+    "longitude": -39.270099639899996
+  },
   "LIM": {
     "city": "Lima",
     "country": "Peru",
@@ -475,7 +489,7 @@
     "latitude": 19.4363,
     "longitude": -99.072098
   },
-  "INV5": {
+  "INV6": {
     "city": "Neuquen",
     "country": "Argentina",
     "countryCode": "AR",
@@ -503,7 +517,7 @@
     "latitude": 18.579999923706055,
     "longitude": -72.2925033569336
   },
-  "INV6": {
+  "INV7": {
     "city": "Porto Alegre",
     "country": "Brazil",
     "countryCode": "BR",
@@ -524,7 +538,7 @@
     "latitude": -0.129166666667,
     "longitude": -78.3575
   },
-  "INV7": {
+  "INV8": {
     "city": "Ribeirão Preto",
     "country": "Brazil",
     "countryCode": "BR",
@@ -545,14 +559,14 @@
     "latitude": -12.9086112976,
     "longitude": -38.3224983215
   },
-  "INV8": {
+  "INV9": {
     "city": "San José",
     "country": "Costa Rica",
     "countryCode": "CR",
     "latitude": 9.933333396911621,
     "longitude": -84.16666412353516
   },
-  "INV9": {
+  "INV10": {
     "city": "Sorocaba",
     "country": "Brazil",
     "countryCode": "BR",
@@ -587,7 +601,14 @@
     "latitude": 14.06089973449707,
     "longitude": -87.21720123291016
   },
-  "INV10": {
+  "UDI": {
+    "city": "Uberlândia",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "latitude": -18.883612,
+    "longitude": -48.225277
+  },
+  "INV11": {
     "city": "Valparaíso",
     "country": "Brazil",
     "countryCode": "BR",
@@ -600,6 +621,13 @@
     "countryCode": "CW",
     "latitude": 12.1889,
     "longitude": -68.959801
+  },
+  "ACC": {
+    "city": "Accra",
+    "country": "Ghana",
+    "countryCode": "GH",
+    "latitude": 5.605189800262451,
+    "longitude": -0.16678600013256073
   },
   "ALG": {
     "city": "Algiers",
@@ -888,6 +916,13 @@
     "latitude": 40.976898,
     "longitude": 28.8146
   },
+  "KHV": {
+    "city": "Khabarovsk",
+    "country": "Russian Federation",
+    "countryCode": "RU",
+    "latitude": 48.52799987793,
+    "longitude": 135.18800354004
+  },
   "KJA": {
     "city": "Krasnoyarsk",
     "country": "Russian Federation",
@@ -950,6 +985,13 @@
     "countryCode": "IT",
     "latitude": 45.6306,
     "longitude": 8.72811
+  },
+  "MSQ": {
+    "city": "Minsk",
+    "country": "Belarus",
+    "countryCode": "BY",
+    "latitude": 53.882499694824,
+    "longitude": 28.030700683594
   },
   "ZIA": {
     "city": "Moscow",
@@ -1133,6 +1175,24 @@
     "latitude": 25.2527999878,
     "longitude": 55.3643989563
   },
+  "INV12": {
+    "city": "Erbil",
+    "countryCode": "IQ"
+  },
+  "HFA": {
+    "city": "Haifa",
+    "country": "Israel",
+    "countryCode": "IL",
+    "latitude": 32.80939865112305,
+    "longitude": 35.04309844970703
+  },
+  "JED": {
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "latitude": 21.6796,
+    "longitude": 39.156502
+  },
   "KWI": {
     "city": "Kuwait City",
     "country": "Kuwait",
@@ -1175,6 +1235,13 @@
     "latitude": 32.01139831542969,
     "longitude": 34.88669967651367
   },
+  "AMD": {
+    "city": "Ahmedabad",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 23.0771999359,
+    "longitude": 72.63469696039999
+  },
   "ALA": {
     "city": "Almaty",
     "country": "Kazakhstan",
@@ -1203,12 +1270,16 @@
     "latitude": 13.9125995636,
     "longitude": 100.607002258
   },
-  "INV11": {
+  "INV13": {
     "city": "Bengaluru",
     "country": "India",
     "countryCode": "IN",
     "latitude": 13.07674,
     "longitude": 77.597645
+  },
+  "INV14": {
+    "city": "Bhubaneshwar",
+    "countryCode": "IN"
   },
   "LLC": {
     "city": "Cagayan",
@@ -1224,12 +1295,26 @@
     "latitude": 10.307222,
     "longitude": 123.978889
   },
+  "IXC": {
+    "city": "Chandigarh",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 30.673500061035156,
+    "longitude": 76.78849792480469
+  },
   "MAA": {
     "city": "Chennai",
     "country": "India",
     "countryCode": "IN",
     "latitude": 12.990005493164062,
     "longitude": 80.16929626464844
+  },
+  "CNX": {
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "latitude": 18.766799926799997,
+    "longitude": 98.962600708
   },
   "CGP": {
     "city": "Chittagong",
@@ -1251,6 +1336,13 @@
     "countryCode": "BD",
     "latitude": 23.843347,
     "longitude": 90.397783
+  },
+  "FUK": {
+    "city": "Fukuoka",
+    "country": "Japan",
+    "countryCode": "JP",
+    "latitude": 33.585899353027344,
+    "longitude": 130.4510040283203
   },
   "HAN": {
     "city": "Hanoi",
@@ -1308,6 +1400,13 @@
     "latitude": 1.64131,
     "longitude": 103.669998
   },
+  "KNU": {
+    "city": "Kanpur",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 26.404301,
+    "longitude": 80.410103
+  },
   "KHI": {
     "city": "Karachi",
     "country": "Pakistan",
@@ -1357,6 +1456,13 @@
     "latitude": 4.191667,
     "longitude": 73.528889
   },
+  "MDL": {
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "countryCode": "MM",
+    "latitude": 21.702199935913086,
+    "longitude": 95.97789764404297
+  },
   "MNL": {
     "city": "Manila",
     "country": "Philippines",
@@ -1377,6 +1483,13 @@
     "countryCode": "IN",
     "latitude": 21.092199,
     "longitude": 79.047203
+  },
+  "OKA": {
+    "city": "Naha",
+    "country": "Japan",
+    "countryCode": "JP",
+    "latitude": 26.1958007812,
+    "longitude": 127.646003723
   },
   "DEL": {
     "city": "New Delhi",
@@ -1434,6 +1547,13 @@
     "latitude": 25.0777,
     "longitude": 121.233002
   },
+  "TAS": {
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "countryCode": "UZ",
+    "latitude": 41.257900238,
+    "longitude": 69.2811965942
+  },
   "TBS": {
     "city": "Tbilisi",
     "country": "Georgia",
@@ -1441,7 +1561,7 @@
     "latitude": 41.6692008972,
     "longitude": 44.95470047
   },
-  "INV12": {
+  "INV15": {
     "city": "Thimphu",
     "country": "Bhutan",
     "countryCode": "BT",
@@ -1482,6 +1602,13 @@
     "countryCode": "AM",
     "latitude": 40.1473007202,
     "longitude": 44.3959007263
+  },
+  "YIA": {
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "latitude": -7.905338,
+    "longitude": 110.057264
   },
   "AQG": {
     "city": "Anquing",
@@ -1602,7 +1729,7 @@
     "latitude": 39.7827987670898,
     "longitude": 116.388000488281
   },
-  "INV13": {
+  "INV16": {
     "city": "Lanzhou",
     "country": "China",
     "countryCode": "CN",
@@ -1714,7 +1841,7 @@
     "latitude": 27.8025,
     "longitude": 114.3062
   },
-  "INV14": {
+  "INV17": {
     "city": "Yichang",
     "country": "China",
     "countryCode": "CN",
@@ -1756,7 +1883,7 @@
     "latitude": -35.30690002441406,
     "longitude": 149.19500732421875
   },
-  "INV15": {
+  "INV18": {
     "city": "Guam",
     "country": "Guam",
     "countryCode": "GU",
