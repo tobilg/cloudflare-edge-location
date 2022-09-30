@@ -398,6 +398,13 @@
     "latitude": -31.3689,
     "longitude": -64.2636
   },
+  "CGB": {
+    "city": "Cuiabá",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "latitude": -15.6528997421,
+    "longitude": -56.1166992188
+  },
   "CWB": {
     "city": "Curitiba",
     "country": "Brazil",
@@ -418,6 +425,13 @@
     "countryCode": "BR",
     "latitude": -3.775833,
     "longitude": -38.532222
+  },
+  "GCM": {
+    "city": "Georgetown",
+    "country": "Cayman Islands",
+    "countryCode": "KY",
+    "latitude": 19.292800903299998,
+    "longitude": -81.3576965332
   },
   "INV3": {
     "city": "Goiânia",
@@ -684,6 +698,13 @@
     "countryCode": "ZA",
     "latitude": -29.6144444444,
     "longitude": 31.1197222222
+  },
+  "GBE": {
+    "city": "Gaborone",
+    "country": "Botswana",
+    "countryCode": "BW",
+    "latitude": -24.555201,
+    "longitude": 25.9182
   },
   "HRE": {
     "city": "Harare",
@@ -1147,6 +1168,13 @@
     "latitude": 33.262500762900004,
     "longitude": 44.2346000671
   },
+  "BSR": {
+    "city": "Basrah",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 30.549100875854492,
+    "longitude": 47.66210174560547
+  },
   "BEY": {
     "city": "Beirut",
     "country": "Lebanon",
@@ -1214,6 +1242,13 @@
     "latitude": 23.593299865722656,
     "longitude": 58.284400939941406
   },
+  "NJF": {
+    "city": "Najaf",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 31.989853,
+    "longitude": 44.404317
+  },
   "JRS": {
     "city": "Ramallah",
     "country": "Israel",
@@ -1249,6 +1284,13 @@
     "latitude": 43.35210037231445,
     "longitude": 77.04049682617188
   },
+  "LLK": {
+    "city": "Astara",
+    "country": "Azerbaijan",
+    "countryCode": "AZ",
+    "latitude": 38.758611,
+    "longitude": 48.806389
+  },
   "GYD": {
     "city": "Baku",
     "country": "Azerbaijan",
@@ -1277,9 +1319,12 @@
     "latitude": 13.07674,
     "longitude": 77.597645
   },
-  "INV14": {
-    "city": "Bhubaneshwar",
-    "countryCode": "IN"
+  "BBI": {
+    "city": "Bhubaneswar",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 20.244400024399997,
+    "longitude": 85.8178024292
   },
   "LLC": {
     "city": "Cagayan",
@@ -1491,6 +1536,13 @@
     "latitude": 26.1958007812,
     "longitude": 127.646003723
   },
+  "XNH": {
+    "city": "Nasiriyah",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 30.935801,
+    "longitude": 46.090099
+  },
   "DEL": {
     "city": "New Delhi",
     "country": "India",
@@ -1561,7 +1613,7 @@
     "latitude": 41.6692008972,
     "longitude": 44.95470047
   },
-  "INV15": {
+  "PBH": {
     "city": "Thimphu",
     "country": "Bhutan",
     "countryCode": "BT",
@@ -1729,7 +1781,7 @@
     "latitude": 39.7827987670898,
     "longitude": 116.388000488281
   },
-  "INV16": {
+  "INV14": {
     "city": "Lanzhou",
     "country": "China",
     "countryCode": "CN",
@@ -1841,7 +1893,7 @@
     "latitude": 27.8025,
     "longitude": 114.3062
   },
-  "INV17": {
+  "INV15": {
     "city": "Yichang",
     "country": "China",
     "countryCode": "CN",
@@ -1883,12 +1935,26 @@
     "latitude": -35.30690002441406,
     "longitude": 149.19500732421875
   },
-  "INV18": {
+  "CHC": {
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "latitude": -43.48939895629883,
+    "longitude": 172.53199768066406
+  },
+  "INV16": {
     "city": "Guam",
     "country": "Guam",
     "countryCode": "GU",
     "latitude": 13.475863,
     "longitude": 144.812142
+  },
+  "HBA": {
+    "city": "Hobart",
+    "country": "Australia",
+    "countryCode": "AU",
+    "latitude": -42.836101532,
+    "longitude": 147.509994507
   },
   "MEL": {
     "city": "Melbourne",
