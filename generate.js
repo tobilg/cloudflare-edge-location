@@ -91,7 +91,7 @@ const run = async () => {
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
 
-  const response = await page.goto('https://www.cloudflare.com/network/')
+  const response = await page.goto('https://www.cloudflare.com/network/', { waitUntil: 'networkidle2' })
 
   if (response.status() > 399) {
     throw new Error(`Failed with response code ${response.status()}`)
@@ -99,6 +99,7 @@ const run = async () => {
 
   const data = await page.evaluate(() => {
     const cities = [];
+    //                                   //html/body/div[1]/div[1]/div/div[1]/div[1]/div/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/div
     const rawCities = document.evaluate('//html/body/div[1]/div[1]/div/div[1]/div[1]/div/div/div/div/div[2]/div[*]/div[*]/div/div/div/div[*]/div/div[*]/div', document);
   
     // First iterator
@@ -109,6 +110,8 @@ const run = async () => {
       cities.push(citiesIterator.textContent); 
       citiesIterator = rawCities.iterateNext();
     }
+
+    console.log(JSON.stringify(cities))
 
     const cleanedCities = cities.map((city) => {
       const temp = city.split(', ');

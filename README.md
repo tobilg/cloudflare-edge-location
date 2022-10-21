@@ -37,7 +37,7 @@ const location = el.lookup('IAD');
 const invalid = el.lookup('FOO'); // returns false
 
 // Get edge location count
-const locationCount = el.getLocationCount(); // returns 256
+const locationCount = el.getLocationCount(); // returns 284
 
 // Get all edge locations
 const locations = el.getLocations();
@@ -149,9 +149,11 @@ EZE,Buenos Aires,Argentina,AR,-34.8222,-58.5358
 VCP,Campinas,Brazil,BR,-23.0074005127,-47.1344985962
 CFC,Caçador,Brazil,BR,-26.78840065,-50.9398002625
 INV2,Cordoba,Argentina,AR,-31.3689,-64.2636
+CGB,Cuiabá,Brazil,BR,-15.6528997421,-56.1166992188
 CWB,Curitiba,Brazil,BR,-25.5284996033,-49.1758003235
 FLN,Florianópolis,Brazil,BR,-27.670278549194336,-48.5525016784668
 FOR,Fortaleza,Brazil,BR,-3.775833,-38.532222
+GCM,Georgetown,Cayman Islands,KY,19.292800903299998,-81.3576965332
 INV3,Goiânia,Brazil,BR,-16.704961,-49.240892
 GUA,Guatemala City,Guatemala,GT,14.5833,-90.527496
 GYE,Guayaquil,Ecuador,EC,-2.1574199199699997,-79.88359832760001
@@ -190,6 +192,7 @@ DSS,Dakar,Senegal,SN,14.67,-17.073333
 DAR,Dar Es Salaam,Tanzania, United Republic of,TZ,-6.87811,39.202599
 JIB,Djibouti,Djibouti,DJ,11.546258,43.159206
 DUR,Durban,South Africa,ZA,-29.6144444444,31.1197222222
+GBE,Gaborone,Botswana,BW,-24.555201,25.9182
 HRE,Harare,Zimbabwe,ZW,-17.931801,31.0928
 JNB,Johannesburg,South Africa,ZA,-26.1392,28.246
 KGL,Kigali,Rwanda,RW,-1.96863,30.1395
@@ -256,6 +259,7 @@ ZAG,Zagreb,Croatia,HR,45.7429008484,16.0687999725
 ZRH,Zurich,Switzerland,CH,47.464699,8.54917
 AMM,Amman,Jordan,JO,31.7226009369,35.9931983948
 BGW,Baghdad,Iraq,IQ,33.262500762900004,44.2346000671
+BSR,Basra,Iraq,IQ,30.548889,47.662472
 BEY,Beirut,Lebanon,LB,33.820899963378906,35.488399505615234
 DMM,Dammam,Saudi Arabia,SA,26.471194,49.798583
 DOH,Doha,Qatar,QA,25.273056,51.608056
@@ -266,11 +270,13 @@ JED,Jeddah,Saudi Arabia,SA,21.6796,39.156502
 KWI,Kuwait City,Kuwait,KW,29.226600646972656,47.96889877319336
 BAH,Manama,Bahrain,BH,26.27079963684082,50.63359832763672
 MCT,Muscat,Oman,OM,23.593299865722656,58.284400939941406
+NJF,Najaf,Iraq,IQ,31.989853,44.404317
 JRS,Ramallah,Israel,IL,31.864722,35.219167
 RUH,Riyadh,Saudi Arabia,SA,24.957599639892578,46.69879913330078
 TLV,Tel Aviv,Israel,IL,32.01139831542969,34.88669967651367
 AMD,Ahmedabad,India,IN,23.0771999359,72.63469696039999
 ALA,Almaty,Kazakhstan,KZ,43.35210037231445,77.04049682617188
+LLK,Astara,Azerbaijan,AZ,38.4447,48.494
 GYD,Baku,Azerbaijan,AZ,40.467498779296875,50.04669952392578
 BWN,Bandar Seri Begawan,Brunei Darussalam,BN,4.944200038909912,114.9280014038086
 DMK,Bangkok,Thailand,TH,13.9125995636,100.607002258
@@ -306,6 +312,7 @@ MNL,Manila,Philippines,PH,14.5086,121.019997
 BOM,Mumbai,India,IN,19.0886993408,72.8678970337
 NAG,Nagpur,India,IN,21.092199,79.047203
 OKA,Naha,Japan,JP,26.1958007812,127.646003723
+XNH,Nasiriyah,Iraq,IQ,30.935801,46.090099
 DEL,New Delhi,India,IN,28.5665,77.103104
 KIX,Osaka,Japan,JP,34.42729949951172,135.24400329589844
 PAT,Patna,India,IN,25.591299057,85.0879974365
@@ -316,7 +323,7 @@ URT,Surat Thani,Thailand,TH,9.13259983063,99.135597229
 TPE,Taipei,Taiwan, Province of China,TW,25.0777,121.233002
 TAS,Tashkent,Uzbekistan,UZ,41.257900238,69.2811965942
 TBS,Tbilisi,Georgia,GE,41.6692008972,44.95470047
-INV15,Thimphu,Bhutan,BT,27.4513,89.6557
+PBH,Thimphu,Bhutan,BT,27.4513,89.6557
 NRT,Tokyo,Japan,JP,35.764702,140.386002
 UBN,Ulaanbaatar,Mongolia,MN,47.646916,106.819833
 VTE,Vientiane,Lao People's Democratic Republic,LA,17.988300323500003,102.56300354
@@ -341,7 +348,7 @@ HFE,Huainan,China,CN,31.7800006866455,117.297996520996
 TNA,Jinan,China,CN,36.857200622558594,117.21600341796875
 YIW,Jinhua,China,CN,29.344722,120.032222
 NAY,Langfang,China,CN,39.7827987670898,116.388000488281
-INV16,Lanzhou,China,CN,35.91780090332031,104.21800231933594
+LHW,Lanzhou,China,CN,36.515,103.62
 ZHA,Maoming,China,CN,21.266666666667,110.46666666667
 KHN,Nanchang,China,CN,28.864999771118164,115.9000015258789
 TAO,Qingdao,China,CN,36.2661018372,120.374000549
@@ -357,14 +364,16 @@ WUX,Wuxi,China,CN,31.494400024399997,120.429000854
 XIY,Xianyang,China,CN,34.437806,108.756556
 XNN,Xining,China,CN,36.5275,102.042999
 YIC,Xinyu,China,CN,27.8025,114.3062
-INV17,Yichang,China,CN,30.671,111.4404
+YIH,Yichang,China,CN,30.556472,111.479944
 CGD,Yiyang,China,CN,28.9188995361,111.63999939
 CGO,Zhengzhou,China,CN,34.519699096699995,113.841003418
 ADL,Adelaide,Australia,AU,-34.945,138.531006
 AKL,Auckland,New Zealand,NZ,-37.008098602299995,174.792007446
 BNE,Brisbane,Australia,AU,-27.384199142456055,153.11700439453125
 CBR,Canberra,Australia,AU,-35.30690002441406,149.19500732421875
-INV18,Guam,Guam,GU,13.475863,144.812142
+CHC,Christchurch,New Zealand,NZ,-43.48939895629883,172.53199768066406
+GUM,Guam,Guam,GU,13.483889,144.797222
+HBA,Hobart,Australia,AU,-42.836101532,147.509994507
 MEL,Melbourne,Australia,AU,-37.673302,144.843002
 NOU,Noumea,New Caledonia,NC,-22.016389,166.216111
 PER,Perth,Australia,AU,-31.94029998779297,115.96700286865234
@@ -776,6 +785,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": -31.3689,
     "longitude": -64.2636
   },
+  "CGB": {
+    "city": "Cuiabá",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "latitude": -15.6528997421,
+    "longitude": -56.1166992188
+  },
   "CWB": {
     "city": "Curitiba",
     "country": "Brazil",
@@ -796,6 +812,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "countryCode": "BR",
     "latitude": -3.775833,
     "longitude": -38.532222
+  },
+  "GCM": {
+    "city": "Georgetown",
+    "country": "Cayman Islands",
+    "countryCode": "KY",
+    "latitude": 19.292800903299998,
+    "longitude": -81.3576965332
   },
   "INV3": {
     "city": "Goiânia",
@@ -1062,6 +1085,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "countryCode": "ZA",
     "latitude": -29.6144444444,
     "longitude": 31.1197222222
+  },
+  "GBE": {
+    "city": "Gaborone",
+    "country": "Botswana",
+    "countryCode": "BW",
+    "latitude": -24.555201,
+    "longitude": 25.9182
   },
   "HRE": {
     "city": "Harare",
@@ -1525,6 +1555,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 33.262500762900004,
     "longitude": 44.2346000671
   },
+  "BSR": {
+    "city": "Basra",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 30.548889,
+    "longitude": 47.662472
+  },
   "BEY": {
     "city": "Beirut",
     "country": "Lebanon",
@@ -1592,6 +1629,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 23.593299865722656,
     "longitude": 58.284400939941406
   },
+  "NJF": {
+    "city": "Najaf",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 31.989853,
+    "longitude": 44.404317
+  },
   "JRS": {
     "city": "Ramallah",
     "country": "Israel",
@@ -1626,6 +1670,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "countryCode": "KZ",
     "latitude": 43.35210037231445,
     "longitude": 77.04049682617188
+  },
+  "LLK": {
+    "city": "Astara",
+    "country": "Azerbaijan",
+    "countryCode": "AZ",
+    "latitude": 38.4447,
+    "longitude": 48.494
   },
   "GYD": {
     "city": "Baku",
@@ -1869,6 +1920,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 26.1958007812,
     "longitude": 127.646003723
   },
+  "XNH": {
+    "city": "Nasiriyah",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "latitude": 30.935801,
+    "longitude": 46.090099
+  },
   "DEL": {
     "city": "New Delhi",
     "country": "India",
@@ -1939,7 +1997,7 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 41.6692008972,
     "longitude": 44.95470047
   },
-  "INV15": {
+  "PBH": {
     "city": "Thimphu",
     "country": "Bhutan",
     "countryCode": "BT",
@@ -2107,12 +2165,12 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 39.7827987670898,
     "longitude": 116.388000488281
   },
-  "INV16": {
+  "LHW": {
     "city": "Lanzhou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 35.91780090332031,
-    "longitude": 104.21800231933594
+    "latitude": 36.515,
+    "longitude": 103.62
   },
   "ZHA": {
     "city": "Maoming",
@@ -2219,12 +2277,12 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 27.8025,
     "longitude": 114.3062
   },
-  "INV17": {
+  "YIH": {
     "city": "Yichang",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 30.671,
-    "longitude": 111.4404
+    "latitude": 30.556472,
+    "longitude": 111.479944
   },
   "CGO": {
     "city": "Zhengzhou",
@@ -2261,12 +2319,26 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": -35.30690002441406,
     "longitude": 149.19500732421875
   },
-  "INV18": {
+  "CHC": {
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "latitude": -43.48939895629883,
+    "longitude": 172.53199768066406
+  },
+  "GUM": {
     "city": "Guam",
     "country": "Guam",
     "countryCode": "GU",
-    "latitude": 13.475863,
-    "longitude": 144.812142
+    "latitude": 13.483889,
+    "longitude": 144.797222
+  },
+  "HBA": {
+    "city": "Hobart",
+    "country": "Australia",
+    "countryCode": "AU",
+    "latitude": -42.836101532,
+    "longitude": 147.509994507
   },
   "MEL": {
     "city": "Melbourne",
