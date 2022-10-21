@@ -1319,9 +1319,12 @@
     "latitude": 13.07674,
     "longitude": 77.597645
   },
-  "INV14": {
-    "city": "Bhubaneshwar",
-    "countryCode": "IN"
+  "BBI": {
+    "city": "Bhubaneswar",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 20.244400024399997,
+    "longitude": 85.8178024292
   },
   "LLC": {
     "city": "Cagayan",
@@ -1945,6 +1948,13 @@
     "countryCode": "GU",
     "latitude": 13.483889,
     "longitude": 144.797222
+  },
+  "HBA": {
+    "city": "Hobart",
+    "country": "Australia",
+    "countryCode": "AU",
+    "latitude": -42.836101532,
+    "longitude": 147.509994507
   },
   "HBA": {
     "city": "Hobart",

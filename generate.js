@@ -127,6 +127,8 @@ const run = async () => {
       c.city = c.city.replace('Zürich', 'Zurich');
       c.city = c.city.replace('Luxembourg City', 'Luxembourg');
       c.city = c.city.replace('Ekaterinburg', 'Yekaterinburg');
+      c.city = c.city.replace('Bhubaneshwar', 'Bhubaneswar');
+      c.city = c.city.replace('Basra', 'Basrah');
       return c;
     });
 
@@ -135,8 +137,6 @@ const run = async () => {
 
   await page.close();
   await browser.close();
-
-  //console.log(JSON.stringify(data));
 
   const withAirports = data.map((city) => {
     const location = {

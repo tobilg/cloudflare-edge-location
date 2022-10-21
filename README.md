@@ -281,7 +281,7 @@ GYD,Baku,Azerbaijan,AZ,40.467498779296875,50.04669952392578
 BWN,Bandar Seri Begawan,Brunei Darussalam,BN,4.944200038909912,114.9280014038086
 DMK,Bangkok,Thailand,TH,13.9125995636,100.607002258
 INV13,Bengaluru,India,IN,13.07674,77.597645
-INV14,Bhubaneshwar,undefined,IN,undefined,undefined
+BBI,Bhubaneswar,India,IN,20.244400024399997,85.8178024292
 LLC,Cagayan,Philippines,PH,18.181111,121.745
 CEB,Cebu,Philippines,PH,10.307222,123.978889
 IXC,Chandigarh,India,IN,30.673500061035156,76.78849792480469
@@ -1706,9 +1706,12 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 13.07674,
     "longitude": 77.597645
   },
-  "INV14": {
-    "city": "Bhubaneshwar",
-    "countryCode": "IN"
+  "BBI": {
+    "city": "Bhubaneswar",
+    "country": "India",
+    "countryCode": "IN",
+    "latitude": 20.244400024399997,
+    "longitude": 85.8178024292
   },
   "LLC": {
     "city": "Cagayan",
@@ -2332,6 +2335,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "countryCode": "GU",
     "latitude": 13.483889,
     "longitude": 144.797222
+  },
+  "HBA": {
+    "city": "Hobart",
+    "country": "Australia",
+    "countryCode": "AU",
+    "latitude": -42.836101532,
+    "longitude": 147.509994507
   },
   "HBA": {
     "city": "Hobart",
