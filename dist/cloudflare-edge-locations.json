@@ -1169,11 +1169,11 @@
     "longitude": 44.2346000671
   },
   "BSR": {
-    "city": "Basra",
+    "city": "Basrah",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 30.548889,
-    "longitude": 47.662472
+    "latitude": 30.549100875854492,
+    "longitude": 47.66210174560547
   },
   "BEY": {
     "city": "Beirut",
@@ -1948,13 +1948,6 @@
     "countryCode": "GU",
     "latitude": 13.483889,
     "longitude": 144.797222
-  },
-  "HBA": {
-    "city": "Hobart",
-    "country": "Australia",
-    "countryCode": "AU",
-    "latitude": -42.836101532,
-    "longitude": 147.509994507
   },
   "HBA": {
     "city": "Hobart",

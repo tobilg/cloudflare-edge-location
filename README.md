@@ -2343,13 +2343,6 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": -42.836101532,
     "longitude": 147.509994507
   },
-  "HBA": {
-    "city": "Hobart",
-    "country": "Australia",
-    "countryCode": "AU",
-    "latitude": -42.836101532,
-    "longitude": 147.509994507
-  },
   "MEL": {
     "city": "Melbourne",
     "country": "Australia",
