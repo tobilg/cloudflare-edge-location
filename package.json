@@ -39,11 +39,11 @@
   },
   "homepage": "https://github.com/tobilg/cloudflare-edge-locations#readme",
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3",
-    "puppeteer": "^13.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "puppeteer": "^19.6.3",
     "utf8": "^3.0.0",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
