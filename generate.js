@@ -91,7 +91,7 @@ const run = async () => {
 
   page.on('console', consoleObj => console.log(consoleObj.text()));
 
-  const response = await page.goto('https://www.cloudflare.com/network/', { waitUntil: 'networkidle2' })
+  const response = await page.goto('https://www.cloudflare.com/network/', { waitUntil: 'networkidle0' })
 
   if (response.status() > 399) {
     throw new Error(`Failed with response code ${response.status()}`)
@@ -99,7 +99,7 @@ const run = async () => {
 
   const data = await page.evaluate(() => {
     const cities = [];
-    const rawCities = document.evaluate('//html/body/div[1]/div[1]/div/div[1]/div[1]/div/div/div/div/div[2]/div[*]/div[*]/div/div/div/div[*]/div/div[*]/div', document);
+    const rawCities = document.evaluate('//html/body/div[1]/div[1]/div/div[2]/div[1]/div/div/div/div/div[2]/div[*]/div[*]/div/div/div/div[*]/div/div[*]/div', document);
   
     // First iterator
     let citiesIterator = rawCities.iterateNext();

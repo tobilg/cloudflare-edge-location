@@ -31,7 +31,7 @@ describe("# Testing the cloudflare-edge-locations functionality", function() {
     it("should return the correct count of locations", function (done) {
       const el = new CloudFlareEdgeLocations();
 
-      el.getLocationCount().should.eql(284);
+      el.getLocationCount().should.eql(285);
       done();
     });
   });

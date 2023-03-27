@@ -37,7 +37,7 @@ const location = el.lookup('IAD');
 const invalid = el.lookup('FOO'); // returns false
 
 // Get edge location count
-const locationCount = el.getLocationCount(); // returns 284
+const locationCount = el.getLocationCount(); // returns 285
 
 // Get all edge locations
 const locations = el.getLocations();
@@ -175,6 +175,7 @@ INV8,Ribeirão Preto,Brazil,BR,-21.22671,-47.782154
 GIG,Rio de Janeiro,Brazil,BR,-22.8099994659,-43.2505569458
 SSA,Salvador,Brazil,BR,-12.9086112976,-38.3224983215
 INV9,San José,Costa Rica,CR,9.933333396911621,-84.16666412353516
+SDQ,Santo Domingo,Dominican Republic,DO,18.42970085144,-69.668899536133
 INV10,Sorocaba,Brazil,BR,-23.536126,-47.464542
 GND,St. George's,Grenada,GD,12.004247,-61.786192
 SJP,São José do Rio Preto,Brazil,BR,-20.816600799599996,-49.40650177
@@ -259,7 +260,7 @@ ZAG,Zagreb,Croatia,HR,45.7429008484,16.0687999725
 ZRH,Zurich,Switzerland,CH,47.464699,8.54917
 AMM,Amman,Jordan,JO,31.7226009369,35.9931983948
 BGW,Baghdad,Iraq,IQ,33.262500762900004,44.2346000671
-BSR,Basra,Iraq,IQ,30.548889,47.662472
+BSR,Basrah,Iraq,IQ,30.549100875854492,47.66210174560547
 BEY,Beirut,Lebanon,LB,33.820899963378906,35.488399505615234
 DMM,Dammam,Saudi Arabia,SA,26.471194,49.798583
 DOH,Doha,Qatar,QA,25.273056,51.608056
@@ -967,6 +968,13 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "latitude": 9.933333396911621,
     "longitude": -84.16666412353516
   },
+  "SDQ": {
+    "city": "Santo Domingo",
+    "country": "Dominican Republic",
+    "countryCode": "DO",
+    "latitude": 18.42970085144,
+    "longitude": -69.668899536133
+  },
   "INV10": {
     "city": "Sorocaba",
     "country": "Brazil",
@@ -1556,11 +1564,11 @@ The JSON version of the data can be found at [dist/cloudflare-edge-locations.jso
     "longitude": 44.2346000671
   },
   "BSR": {
-    "city": "Basra",
+    "city": "Basrah",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 30.548889,
-    "longitude": 47.662472
+    "latitude": 30.549100875854492,
+    "longitude": 47.66210174560547
   },
   "BEY": {
     "city": "Beirut",

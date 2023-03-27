@@ -580,6 +580,13 @@
     "latitude": 9.933333396911621,
     "longitude": -84.16666412353516
   },
+  "SDQ": {
+    "city": "Santo Domingo",
+    "country": "Dominican Republic",
+    "countryCode": "DO",
+    "latitude": 18.42970085144,
+    "longitude": -69.668899536133
+  },
   "INV10": {
     "city": "Sorocaba",
     "country": "Brazil",
