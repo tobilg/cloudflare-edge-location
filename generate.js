@@ -99,7 +99,7 @@ const run = async () => {
 
   const data = await page.evaluate(() => {
     const cities = [];
-    const rawCities = document.evaluate('//html/body/div[1]/div[1]/div/div[2]/div[1]/div/div/div/div/div[2]/div[*]/div[*]/div/div/div/div[*]/div/div[*]/div', document);
+    const rawCities = document.evaluate('//html/body/div[1]/div[1]/div/div[3]/div[1]/div/div/div/div/div[2]/div[*]/div[*]/div/div/div/div[*]/div/div[*]/div', document);
   
     // First iterator
     let citiesIterator = rawCities.iterateNext();
