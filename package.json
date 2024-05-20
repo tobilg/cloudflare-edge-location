@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-edge-locations",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "List of cloudflare.com edge locations",
   "main": "umd/cloudflare-edge-locations.min.js",
   "module": "src/index.js",

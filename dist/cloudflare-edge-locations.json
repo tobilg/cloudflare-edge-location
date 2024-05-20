@@ -1,4 +1,11 @@
 {
+  "ABQ": {
+    "city": "Albuquerque",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 35.040199,
+    "longitude": -106.609001
+  },
   "IAD": {
     "city": "Ashburn",
     "country": "United States",
@@ -12,6 +19,13 @@
     "countryCode": "US",
     "latitude": 33.6367,
     "longitude": -84.428101
+  },
+  "AUS": {
+    "city": "Austin",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 30.194499969482422,
+    "longitude": -97.6698989868164
   },
   "BOS": {
     "city": "Boston",
@@ -47,6 +61,13 @@
     "countryCode": "US",
     "latitude": 41.785999,
     "longitude": -87.752403
+  },
+  "CLE": {
+    "city": "Cleveland",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 41.4117012024,
+    "longitude": -81.8498001099
   },
   "CMH": {
     "city": "Columbus",
@@ -188,6 +209,13 @@
     "latitude": 36.89459991455078,
     "longitude": -76.20120239257812
   },
+  "OKC": {
+    "city": "Oklahoma City",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 35.39310073852539,
+    "longitude": -97.60070037841797
+  },
   "OMA": {
     "city": "Omaha",
     "country": "United States",
@@ -230,6 +258,13 @@
     "latitude": 45.58869934,
     "longitude": -122.5979996
   },
+  "INV1": {
+    "city": "Raleigh",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 35.786800384521484,
+    "longitude": -78.58580017089844
+  },
   "RIC": {
     "city": "Richmond",
     "country": "United States",
@@ -251,12 +286,26 @@
     "latitude": 40.78839874267578,
     "longitude": -111.97799682617188
   },
+  "SAT": {
+    "city": "San Antonio",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 29.533701,
+    "longitude": -98.469803
+  },
   "SAN": {
     "city": "San Diego",
     "country": "United States",
     "countryCode": "US",
     "latitude": 32.7336006165,
     "longitude": -117.190002441
+  },
+  "SFO": {
+    "city": "San Francisco",
+    "country": "United States",
+    "countryCode": "US",
+    "latitude": 37.61899948120117,
+    "longitude": -122.375
   },
   "SJC": {
     "city": "San Jose",
@@ -356,7 +405,7 @@
     "latitude": -1.3792500495900002,
     "longitude": -48.4762992859
   },
-  "INV1": {
+  "INV2": {
     "city": "Blumenau",
     "country": "Brazil",
     "countryCode": "BR",
@@ -391,7 +440,7 @@
     "latitude": -26.78840065,
     "longitude": -50.9398002625
   },
-  "INV2": {
+  "INV3": {
     "city": "Cordoba",
     "country": "Argentina",
     "countryCode": "AR",
@@ -433,7 +482,7 @@
     "latitude": 19.292800903299998,
     "longitude": -81.3576965332
   },
-  "INV3": {
+  "INV4": {
     "city": "Goiânia",
     "country": "Brazil",
     "countryCode": "BR",
@@ -454,14 +503,14 @@
     "latitude": -2.1574199199699997,
     "longitude": -79.88359832760001
   },
-  "INV4": {
+  "INV5": {
     "city": "Itajaí",
     "country": "Brazil",
     "countryCode": "BR",
     "latitude": -26.983055,
     "longitude": -48.816387
   },
-  "INV5": {
+  "INV6": {
     "city": "Joinville",
     "country": "Brazil",
     "countryCode": "BR",
@@ -474,6 +523,13 @@
     "countryCode": "BR",
     "latitude": -7.21895980835,
     "longitude": -39.270099639899996
+  },
+  "LAP": {
+    "city": "La Paz",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "latitude": 24.072700500499998,
+    "longitude": -110.361999512
   },
   "LIM": {
     "city": "Lima",
@@ -503,7 +559,7 @@
     "latitude": 19.4363,
     "longitude": -99.072098
   },
-  "INV6": {
+  "INV7": {
     "city": "Neuquen",
     "country": "Argentina",
     "countryCode": "AR",
@@ -531,7 +587,7 @@
     "latitude": 18.579999923706055,
     "longitude": -72.2925033569336
   },
-  "INV7": {
+  "INV8": {
     "city": "Porto Alegre",
     "country": "Brazil",
     "countryCode": "BR",
@@ -552,7 +608,7 @@
     "latitude": -0.129166666667,
     "longitude": -78.3575
   },
-  "INV8": {
+  "INV9": {
     "city": "Ribeirão Preto",
     "country": "Brazil",
     "countryCode": "BR",
@@ -573,12 +629,19 @@
     "latitude": -12.9086112976,
     "longitude": -38.3224983215
   },
-  "INV9": {
+  "INV10": {
     "city": "San José",
     "country": "Costa Rica",
     "countryCode": "CR",
     "latitude": 9.933333396911621,
     "longitude": -84.16666412353516
+  },
+  "SCL": {
+    "city": "Santiago",
+    "country": "Chile",
+    "countryCode": "CL",
+    "latitude": -33.393001556396484,
+    "longitude": -70.78579711914062
   },
   "SDQ": {
     "city": "Santo Domingo",
@@ -587,7 +650,7 @@
     "latitude": 18.42970085144,
     "longitude": -69.668899536133
   },
-  "INV10": {
+  "INV11": {
     "city": "Sorocaba",
     "country": "Brazil",
     "countryCode": "BR",
@@ -629,7 +692,7 @@
     "latitude": -18.883612,
     "longitude": -48.225277
   },
-  "INV11": {
+  "INV12": {
     "city": "Valparaíso",
     "country": "Brazil",
     "countryCode": "BR",
@@ -832,6 +895,20 @@
     "latitude": 52.380001,
     "longitude": 13.5225
   },
+  "INV13": {
+    "city": "Bordeaux",
+    "country": "France",
+    "countryCode": "FR",
+    "latitude": 44.82749938964844,
+    "longitude": -0.6044440269470215
+  },
+  "BTS": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "latitude": 48.17020034790039,
+    "longitude": 17.21269989013672
+  },
   "BRU": {
     "city": "Brussels",
     "country": "Belgium",
@@ -944,6 +1021,10 @@
     "latitude": 40.976898,
     "longitude": 28.8146
   },
+  "INV14": {
+    "city": "Keflavik",
+    "countryCode": "IS*"
+  },
   "KHV": {
     "city": "Khabarovsk",
     "country": "Russian Federation",
@@ -986,6 +1067,13 @@
     "latitude": 49.6233333,
     "longitude": 6.2044444
   },
+  "LYS": {
+    "city": "Lyon",
+    "country": "France",
+    "countryCode": "FR",
+    "latitude": 45.725556,
+    "longitude": 5.081111
+  },
   "MAD": {
     "city": "Madrid",
     "country": "Spain",
@@ -1020,6 +1108,9 @@
     "countryCode": "BY",
     "latitude": 53.882499694824,
     "longitude": 28.030700683594
+  },
+  "INV15": {
+    "city": "Moldova*"
   },
   "ZIA": {
     "city": "Moscow",
@@ -1210,7 +1301,7 @@
     "latitude": 25.2527999878,
     "longitude": 55.3643989563
   },
-  "INV12": {
+  "INV16": {
     "city": "Erbil",
     "countryCode": "IQ"
   },
@@ -1319,7 +1410,7 @@
     "latitude": 13.9125995636,
     "longitude": 100.607002258
   },
-  "INV13": {
+  "INV17": {
     "city": "Bengaluru",
     "country": "India",
     "countryCode": "IN",
@@ -1410,12 +1501,8 @@
     "latitude": 10.8187999725,
     "longitude": 106.652000427
   },
-  "HKG": {
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "countryCode": "HK",
-    "latitude": 22.308901,
-    "longitude": 113.915001
+  "INV18": {
+    "city": "Hong Kong*"
   },
   "HYD": {
     "city": "Hyderabad",
@@ -1578,6 +1665,10 @@
     "latitude": 11.546600341796875,
     "longitude": 104.84400177001953
   },
+  "INV19": {
+    "city": "Senai",
+    "countryCode": "MY*"
+  },
   "ICN": {
     "city": "Seoul",
     "country": "Korea, Republic of",
@@ -1599,12 +1690,8 @@
     "latitude": 9.13259983063,
     "longitude": 99.135597229
   },
-  "TPE": {
-    "city": "Taipei",
-    "country": "Taiwan, Province of China",
-    "countryCode": "TW",
-    "latitude": 25.0777,
-    "longitude": 121.233002
+  "INV20": {
+    "city": "Taipei*"
   },
   "TAS": {
     "city": "Tashkent",
